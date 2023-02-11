@@ -1,8 +1,27 @@
-import './App.css'
+import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
+
 function App() {
   return (
     <div>
-        <h1 className="text-3xl font-bold">Namaste React</h1>
+        <Head />
+        <Body />
+
+{/**
+ * 
+ * Head
+ * Body
+ *   Sidebar
+ *      MenuItems
+ *   Main Container
+ *     ButtonsList
+ *     VideoContainer
+ *        VideoCard
+ * 
+ * 
+ */}
+
     </div>
   );
 }
